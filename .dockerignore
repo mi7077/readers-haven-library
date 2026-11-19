@@ -1,7 +1,12 @@
+
 node_modules
 dist
 .parcel-cache
 .git
+.github
 .gitignore
 Dockerfile
+.dockerignore
+*.log
+npm-debug.log*
 README.md
