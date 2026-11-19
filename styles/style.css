@@ -1,50 +1,76 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+/* Home Page Styles */
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #e8f1ed;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f2eb;
-    color: #26352c;
-    padding: 30px;
-}
-
-h1 {
+.hero h1 {
+    font-size: 38px;
     margin-bottom: 15px;
-    color: #254b3b;
+    color: #244b3c;
 }
 
-p {
-    margin-bottom: 20px;
-    line-height: 1.6;
+.hero p {
+    margin: 12px auto;
+    max-width: 650px;
+    line-height: 1.7;
 }
 
-nav {
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #244b3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #376b55;
+}
+
+.home-section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.home-section h2 {
+    color: #244b3c;
+    margin-bottom: 18px;
+}
+
+.home-section p {
+    line-height: 1.7;
+}
+
+.features {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
     margin-top: 25px;
 }
 
-nav a {
-    color: #254b3b;
-    text-decoration: none;
+.feature {
+    background-color: #f3f6f4;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 280px;
+    flex: 1 1 220px;
+}
+
+.feature h3 {
+    color: #244b3c;
+    margin-bottom: 12px;
+}
+
+.feature a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #244b3c;
     font-weight: bold;
-}
-
-nav a:hover {
-    color: #c58b45;
-}
-
-@media (max-width: 600px) {
-    body {
-        padding: 15px;
-    }
-
-    nav {
-        flex-direction: column;
-        gap: 12px;
-    }
 }
